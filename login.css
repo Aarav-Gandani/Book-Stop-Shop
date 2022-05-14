@@ -1,0 +1,23 @@
+#logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+body{
+    background-color:burlywood;
+}
+#div{
+    
+    width: 1000px;
+}
+#user_name{
+    width: 900px;
+}
+#phone_number{
+    width: 1000px;
+}

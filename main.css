@@ -1,0 +1,20 @@
+#logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+body{
+    background-color: burlywood;
+}
+#output{
+    background-color:peachpuff;
+   width: 700px;
+   height: 350px;
+}
+#hr1{
+    border-color: black;
+}
+#divs{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}

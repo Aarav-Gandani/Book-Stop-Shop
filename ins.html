@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instructions</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="ins.css">
+
+</head>
+<body>
+<div class="container">
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+	<center>
+		<h1 class="header">	
+			<sup>
+			Instructions
+			<img src="logo.png.gif" id="logo">
+			</sup>
+			</sup>
+		</h1>
+		<h3 style="font-weight: bold ;"> 
+    <h3> 1. You can donate books, buy books or sell books. </h3>
+    <h3> 2. You can choose the person you want to buy the books from or the person you want to sell the books to. </h3>
+    <h3> 3. To contact the buyer or seller, you can dial his/her phone number which will be displayed beside their name. </h3>
+	<h3> 4. If you want to donate, you  can directly donate books without the help of the app. </h3>
+	<h3> 5. If you want to change your role, like from buyer to seller, then you can logout and change your role.  </h3>
+    </h3>
+<br>
+<br>
+	<button id="go" onclick="yay()" style="width: 100px;" class="btn btn-primary"> Go </button>
+	<h3> And remember! </h3>
+<img src="quote.jpg">
+	</center>
+</div>
+
+<script src="ins.js"></script>
+</body>
+</html>
